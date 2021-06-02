@@ -1,13 +1,13 @@
 /**
- * @file trangle.cc
- * @author koritafei (koritafei@gmail.com)
- * @brief 给定一组数据，判断这组数据是否能够组成三角形
- * @version 0.1
- * @date 2021-02-25
- *
- * @copyright Copyright (c) 2021
- *
- */
+ * @ Description  :
+ * @ Version      : 1.0
+ * @ Author       : koritafei(koritafei@gmail.com)
+ * @ Date         : 2021-02-25 15:59:36
+ * @ LastEditors  : koritafei(koritafei@gmail.com)
+ * @ LastEditTime : 2021-06-02 16:10:23
+ * @ FilePath     : /program/base/trangle.cc
+ * @ Copyright (C) 2021 koritafei(koritafei@gmail.com). All rights reserved.
+ * */
 
 #include <iostream>
 #include <vector>
@@ -20,18 +20,19 @@ void solve(std::vector<int> &in) {
     return;
   }
 
-  for (int i = 0; i < len - 2; i++) {
-    for (int j = i + 1; j < len - 1; j++) {
+  for (int i = 0; i < len; i++) {
+    for (int j = i + 1; j < len; j++) {
       for (int k = j + 1; k < len; k++) {
-        int c     = in[i] + in[j] + in[k];
-        int ledge = std::max(std::max(in[i], in[j]), in[k]);
-        int rest  = c - ledge;
-        if (rest > ledge) {
-          res = std::max(c, res);
+        int c    = in[i] + in[j] + in[k];
+        int maxc = std::max(std::max(in[i], in[j]), in[k]);
+        int ret  = c - maxc;
+        if (ret > maxc) {
+          res = res > c ? ret : c;
         }
       }
     }
   }
+
   std::cout << res << std::endl;
 }
 

@@ -1,13 +1,13 @@
 /**
- * @file ants.cc
- * @author koritafei (koritafei@gmail.com)
- * @brief 所有蚂蚁爬行掉落的最大和最小距离
- * @version 0.1
- * @date 2021-02-25
- *
- * @copyright Copyright (c) 2021
- *
- */
+ * @ Description  :
+ * @ Version      : 1.0
+ * @ Author       : koritafei(koritafei@gmail.com)
+ * @ Date         : 2021-02-25 16:21:34
+ * @ LastEditors  : koritafei(koritafei@gmail.com)
+ * @ LastEditTime : 2021-06-02 16:11:59
+ * @ FilePath     : /program/base/ants.cc
+ * @ Copyright (C) 2021 koritafei(koritafei@gmail.com). All rights reserved.
+ * */
 
 #include <iostream>
 #include <vector>

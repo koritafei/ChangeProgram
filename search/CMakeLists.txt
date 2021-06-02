@@ -1,0 +1,5 @@
+add_executable(fact fact.cc)
+add_executable(partsum partsum.cc)
+add_executable(lakecount lakecount.cc)
+add_executable(maze maze.cc)
+#add_executable(nextPermutation nextPermutation.cc)
