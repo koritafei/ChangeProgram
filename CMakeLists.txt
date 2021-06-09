@@ -8,3 +8,4 @@ set(CMAKE_CXX_STANDARD 11)
 
 add_subdirectory(search)
 add_subdirectory(base)
+add_subdirectory(greedy)

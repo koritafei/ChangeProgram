@@ -1,0 +1,6 @@
+add_executable(cionNum cionNum.cpp)
+add_executable(Intervalscheduling Intervalscheduling.cpp)
+add_executable(BestCowLine BestCowLine.cpp)
+add_executable(SarumanArmy SarumanArmy.cpp)
+add_executable(FenceRepair FenceRepair.cpp)
+add_executable(Huffman Huffman.cpp)
