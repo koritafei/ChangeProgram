@@ -1,0 +1,7 @@
+add_executable(10.package package01.cpp)
+add_executable(lcs lcs.cc)
+add_executable(packagefull packagefull.cc)
+add_executable(lpartsum partsum.cc)
+add_executable(upsubstr upsubstr.cc)
+add_executable(partnum partnum.cc)
+add_executable(multinomial multinomial.cc)
